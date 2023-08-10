@@ -1,0 +1,32 @@
+body
+{
+    background:linear-gradient(to right,rgb(61, 61, 137),rgb(51, 51, 51));
+}
+.container
+{
+    position: absolute;
+    left:50%;
+    top: 30%;
+    transform:translate(-50%,-50%);
+}
+#text
+{
+position: absolute;
+transform: translate(-555px, 332px);
+border: 8px solid rgb(93, 93, 133);
+outline:none;
+font-size: 26px;
+border-radius: 10px;
+}
+#qrcode
+{
+    position: absolute;
+        transform: translate(140px);
+    width: 200px;
+    height: 200px;
+}
+span
+{
+font-size: 30px;
+color: black;
+}
